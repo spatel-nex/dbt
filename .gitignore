@@ -1,0 +1,9 @@
+.DS_Store
+requirements.txt
+.venv/
+
+# DBTVAULT ARTIFACTS
+dbtvault/target/
+dbtvault/dbt_packages/
+dbtvault/dist/
+dbtvault/profiles.yml
