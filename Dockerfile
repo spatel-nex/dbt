@@ -18,4 +18,4 @@ COPY dbtvault/ .
 
 # Install dbt dependencies (as specified in packages.yml file)
 # Build seeds, models and snapshots (and run tests wherever applicable)
-CMD dbt deps && dbt docs generate && dbt run
+CMD dbt deps && dbt docs generate && dbt run && dbt clean
