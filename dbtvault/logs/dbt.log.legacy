@@ -11687,3 +11687,40 @@
 2023-02-21 14:37:54.317540 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
 Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
 2023-02-21 14:38:02.407992 (Thread-3): invalid escape sequence '\{'
+2023-02-24 19:14:11.606910 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 19:14:12.336668 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:14:12.752009 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:14:13.101185 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:15:34.909846 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 19:15:35.591334 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:15:36.007069 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:15:36.353374 (MainThread): invalid escape sequence '\{'
+2023-02-24 19:16:00.024836 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 19:16:02.005029 (Thread-2): invalid escape sequence '\{'
+2023-02-24 19:16:06.539915 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 19:16:10.089065 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 21:35:38.066224 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 21:35:38.806113 (MainThread): invalid escape sequence '\{'
+2023-02-24 21:35:39.227098 (MainThread): invalid escape sequence '\{'
+2023-02-24 21:35:39.578228 (MainThread): invalid escape sequence '\{'
+2023-02-24 21:36:11.156813 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 21:36:15.932600 (Thread-4): invalid escape sequence '\{'
+2023-02-24 21:39:04.767783 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 21:39:06.495422 (Thread-2): invalid escape sequence '\{'
+2023-02-24 21:39:06.500161 (Thread-3): invalid escape sequence '\{'
+2023-02-24 21:40:47.007937 (MainThread): Deprecated call to `pkg_resources.declare_namespace('snowflake')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+2023-02-24 21:40:51.437980 (Thread-4): invalid escape sequence '\{'
+2023-02-27 11:18:17.076654 (Thread-1): invalid escape sequence '\{'
+2023-02-27 11:18:17.082288 (Thread-3): invalid escape sequence '\{'
+2023-02-27 17:15:09.818798 (MainThread): invalid escape sequence '\{'
+2023-02-27 17:15:10.232819 (MainThread): invalid escape sequence '\{'
+2023-02-27 17:15:10.583569 (MainThread): invalid escape sequence '\{'

@@ -1,8 +1,10 @@
 .DS_Store
 requirements.txt
 .venv/
+.aws/
 
 # DBTVAULT ARTIFACTS
+dbtvault/logs/
 dbtvault/target/
 dbtvault/dbt_packages/
 dbtvault/dist/
