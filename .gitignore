@@ -4,6 +4,7 @@ requirements.txt
 .aws/
 
 # DBTVAULT ARTIFACTS
+dbtvault/logs/
 dbtvault/target/
 dbtvault/dbt_packages/
 dbtvault/dist/
