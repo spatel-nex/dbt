@@ -9,4 +9,3 @@ dbtvault/target/
 dbtvault/dbt_packages/
 dbtvault/dist/
 dbtvault/profiles.yml
-dbtvault/log/
