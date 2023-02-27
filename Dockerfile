@@ -7,7 +7,6 @@ RUN pip install "poetry==1.3.2"
 
 WORKDIR /dbtvault/
 
-# Uncomment to speed up build and cache dependencies
 COPY poetry.lock pyproject.toml ./
 
 RUN poetry config virtualenvs.create false
@@ -17,5 +16,7 @@ RUN poetry install
 COPY dbtvault/ .
 
 # Install dbt dependencies (as specified in packages.yml file)
-# Build seeds, models and snapshots (and run tests wherever applicable)
+# Generate docs and other metadata related artifacts
+# Build & run seeds, models and/or snapshots (and run tests wherever applicable)
+# Clean logs, target files and any dbt packages generated
 CMD dbt deps && dbt docs generate && dbt run && dbt clean
