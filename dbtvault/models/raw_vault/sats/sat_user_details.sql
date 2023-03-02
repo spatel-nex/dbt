@@ -1,7 +1,7 @@
-{%- set source_model = "v_stg_orders" -%}
-{%- set src_pk = "CUSTOMER_PK" -%}
-{%- set src_hashdiff = "CUSTOMER_HASHDIFF" -%}
-{%- set src_payload = ["CUSTOMER_NAME", "CUSTOMER_ADDRESS", "CUSTOMER_PHONE",
+{%- set source_model = "v_stg_user" -%}
+{%- set src_pk = "USER_HASH_KEY" -%}
+{%- set src_hashdiff = "USER_HASHDIFF" -%}
+{%- set src_payload = ["USER_NAME", "EMAIL_ADDRESS", "DISPLAY_NAME",
                        "CUSTOMER_ACCBAL", "CUSTOMER_MKTSEGMENT", "CUSTOMER_COMMENT"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LOAD_DATE" -%}

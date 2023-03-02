@@ -1,6 +1,6 @@
-{%- set source_model = ["v_stg_orders", "v_stg_inventory"] -%}
-{%- set src_pk = "NATION_PK" -%}
-{%- set src_nk = "NATION_KEY" -%}
+{%- set source_model = "v_stg_user" -%}
+{%- set src_pk = "USER_HASH_KEY" -%}
+{%- set src_nk = "USER_ID" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 
