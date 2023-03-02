@@ -1,6 +1,6 @@
-{%- set source_model = ["v_stg_user", "v_stg_issue"] -%}
-{%- set src_pk = "USER_ISSUE_HASH_KEY" -%}
-{%- set src_fk = ["USER_HASH_KEY", "ISSUE_HASH_KEY"] -%}
+{%- set source_model = "v_stg_issue" -%}
+{%- set src_pk = "PARENT_ISSUE_HASH_KEY" -%}
+{%- set src_fk = ["ISSUE_HASH_KEY", "PARENT_HASH_KEY"] -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
 

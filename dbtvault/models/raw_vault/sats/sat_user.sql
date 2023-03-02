@@ -1,8 +1,8 @@
 {%- set source_model = "v_stg_user" -%}
 {%- set src_pk = "USER_HASH_KEY" -%}
 {%- set src_hashdiff = "USER_HASHDIFF" -%}
-{%- set src_payload = ["USER_NAME", "EMAIL_ADDRESS", "DISPLAY_NAME",
-                       "CUSTOMER_ACCBAL", "CUSTOMER_MKTSEGMENT", "CUSTOMER_COMMENT"] -%}
+{%- set src_payload = ["ACCOUNT_ID", "ACCOUNT_TYPE", "USER_NAME", "EMAIL_ADDRESS", "DISPLAY_NAME",
+                       "ACTIVE", "TIMEZONE", "GROUPS", "APPLICATION_ROLES"] -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
