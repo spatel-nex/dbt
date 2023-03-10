@@ -1,15 +1,8 @@
 version: 2
 
 sources:
-  - name: tpch_sample
-    database: SNOWFLAKE_SAMPLE_DATA
-    schema: TPCH_SF10
+  - name: jira
+    database: DB_SHRUT_PATEL
+    schema: DATAVAULT
     tables:
-      - name: LINEITEM
-      - name: CUSTOMER
-      - name: ORDERS
-      - name: PARTSUPP
-      - name: SUPPLIER
-      - name: PART
-      - name: NATION
-      - name: REGION
+      - name: ISSUES

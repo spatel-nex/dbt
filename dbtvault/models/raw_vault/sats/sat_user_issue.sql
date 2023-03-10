@@ -1,7 +1,7 @@
-{%- set source_model = ["v_stg_user", "v_stg_issue"] -%}
+{%- set source_model = "v_stg_user_issue" -%}
 {%- set src_pk = "USER_ISSUE_HASH_KEY" -%}
 {%- set src_hashdiff = "USER_ISSUE_HASHDIFF" -%}
-{%- set src_payload = ["CREATOR", "REPORTER", "ASSIGNEE", "WATCHER"] -%}
+{%- set src_payload = "RELATION_TYPE" -%}
 {%- set src_eff = "EFFECTIVE_FROM" -%}
 {%- set src_ldts = "LOAD_DATE" -%}
 {%- set src_source = "RECORD_SOURCE" -%}
